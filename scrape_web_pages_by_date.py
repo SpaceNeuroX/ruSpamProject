@@ -26,7 +26,7 @@ try:
                 start_parsing = True
             
             if start_parsing:
-                url = f"https://lols.bot/2022/{calendar.month_name[month]}-{day:02d}/"
+                url = f""
                 
                 try:
                     driver.get(url)
